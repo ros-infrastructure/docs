@@ -4,7 +4,7 @@ The Robot Operating System (ROS) is a set of software libraries and tools that h
 
 > [wikipedia.org/wiki/Robot_Operating_System](https://en.wikipedia.org/wiki/Robot_Operating_System)
 
-[![logo][@ROS_Logo]][@ROS.org]
+[%%LOGO%%][@ROS.org]
 
 # How to use this image
 
