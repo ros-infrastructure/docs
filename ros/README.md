@@ -1,15 +1,8 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`indigo-ros-base`, `latest` (*indigo/ros_base/Dockerfile*)](https://github.com/ros-infrastructure/docker_images/tree/master/indigo/ros_base/Dockerfile)
-- [`indigo-ros-core`, (*indigo/ros_core/Dockerfile*)](https://github.com/ros-infrastructure/docker_images/tree/master/indigo/ros_core/Dockerfile)
-- [`indigo-robot`, (*indigo/robot/Dockerfile*)](https://github.com/ros-infrastructure/docker_images/tree/master/indigo/robot/Dockerfile)
-- [`indigo-perception`, (*indigo/perception/Dockerfile*)](https://github.com/ros-infrastructure/docker_images/tree/master/indigo/perception/Dockerfile)
 
 
-For more information about this image and its history, please see the [relevant manifest file (`library/ros`)][@Library_ros] in the [`docker-library/official-images` GitHub repo][@Official_images].
-
-[@Library_ros]: https://github.com/docker-library/official-images/blob/master/library/ros
-[@Official_images]: https://github.com/docker-library/official-images
+For more information about this image and its history, please see the [relevant manifest file (`library/ros`)](https://github.com/docker-library/official-images/blob/master/library/ros) in the [`docker-library/official-images` GitHub repo](https://github.com/docker-library/official-images).
 
 # What is [ROS][@ROS.org]?
 
@@ -17,7 +10,7 @@ The Robot Operating System (ROS) is a set of software libraries and tools that h
 
 > [wikipedia.org/wiki/Robot_Operating_System](https://en.wikipedia.org/wiki/Robot_Operating_System)
 
-[![logo][@ROS_Logo]][@ROS.org]
+[![logo](https://raw.githubusercontent.com/docker-library/docs/master/ros/logo.png)][@ROS.org]
 
 # How to use this image
 
@@ -60,26 +53,26 @@ While the core parts of ROS are licensed under the BSD license, other licenses a
 [@GPL]:         http://opensource.org/licenses/gpl-license
 [@MIT]:         http://opensource.org/licenses/MIT
 
-
 # Supported Docker versions
 
-This image is officially supported on Docker version 1.4.1.
+This image is officially supported on Docker version 1.6.2.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 
 # User Feedback
 
+## Documentation
+
+Documentation for this image is stored in the [`ros/` directory](https://github.com/docker-library/docs/tree/master/ros) of the [`docker-library/docs` GitHub repo](https://github.com/docker-library/docs). Be sure to familiarize yourself with the [repository's `REAMDE.md` file](https://github.com/docker-library/docs/blob/master/README.md) before attempting a pull request.
+
 ## Issues
 
-If you have any problems with or questions about this image, please contact us through a [GitHub issue][@GitHub_issues].
+If you have any problems with or questions about this image, please contact us through a [GitHub issue](https://github.com/osrf/docker_images/issues).
 
-You can also reach many of the official image maintainers via the `#docker-library` IRC channel on [Freenode][@Freenode].
+You can also reach many of the official image maintainers via the `#docker-library` IRC channel on [Freenode](https://freenode.net).
 
 ## Contributing
 
 You are invited to contribute new features, fixes, or updates, large or small; we are always thrilled to receive pull requests, and do our best to process them as fast as we can.
 
-Before you start to code, we recommend discussing your plans through a [GitHub issue][@GitHub_issues], especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
-
-[@GitHub_issues]: https://github.com/ros-infrastructure/docker_images/issues
-[@Freenode]: https://freenode.net
+Before you start to code, we recommend discussing your plans through a [GitHub issue](https://github.com/osrf/docker_images/issues), especially for more ambitious contributions. This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help you find out if someone else is working on the same thing.
